@@ -141,6 +141,7 @@ span:hover {
     transition: opacity 0.3s ease-in-out;
 }
 
+/* always remember to double check spellings and avoid any typos */
 .imagediv div:hover {
     cursor: pointer;
     opacity: 1;
