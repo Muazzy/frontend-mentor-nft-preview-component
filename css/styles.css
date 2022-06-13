@@ -58,7 +58,8 @@ span:hover {
     /* border: solid; */
     border-radius: 10px;
     /* this do all the magic of centering the div eg margin auto */
-    margin: auto;
+    /* first margin value 5% will make it center vertically */
+    margin: 5% auto;
     padding: 24px;
     background-color: var(--card-BG);
     width: 275px;
