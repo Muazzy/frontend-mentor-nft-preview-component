@@ -49,6 +49,14 @@ span:hover {
     cursor: pointer;
 }
 
+.container {
+    flex-direction: column;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .main-card {
 
     /* yaha p bhi same scene hai agar absolute krha tou nhi horha center q k phir vo "body" k according apne aap ko position karega*/
@@ -59,7 +67,7 @@ span:hover {
     border-radius: 10px;
     /* this do all the magic of centering the div eg margin auto */
     /* first margin value 5% will make it center vertically */
-    margin: 5% auto;
+    margin: 5px;
     padding: 24px;
     background-color: var(--card-BG);
     width: 275px;
